@@ -1,0 +1,204 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    line-height: 1.8;
+    font-weight: 200;
+}
+.banner{
+    
+}
+.banner h1{
+    position: relative;
+    top: 5rem;
+    color: #030404;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.banner img{
+    width: 100%;
+}
+.hey-guys h2{
+    font-size: 2.7rem;
+    color: #292929;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+p{
+    color: #636363;
+    font-size: 1.3rem;
+}
+p span{
+    font-weight: 500;
+}
+.youtability{
+    padding: 3rem 0;
+}
+.youtability h3{
+    font-weight: 900;
+    color: #292929;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+.youtability .content{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.youtability p{
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+.mobile-section-2{
+    padding: 3rem 0;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+.mobile-section-2 p,
+.bottom-mobile p{
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.cls-35{
+    font-weight: 600;
+}
+.tip-sec{
+    background-image: url("./images/Q1_newsletter-02.png");
+    color: #242424;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position:relative;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    min-height: 50rem;
+
+}
+.tip-header{
+  margin: 15rem 4rem 2rem 2rem;
+
+}
+.tip-header-text{
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.text6{
+    position:relative;
+    margin-bottom: 2,1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1,3rem;
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
+   
+
+footer{
+    background-color: #1d1b1b;
+    color: #ffffff;
+    min-height: 25rem;
+    padding: 6rem 0 2rem;
+}
+footer h2{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+footer p{
+    color: #ffffff;
+    font-weight: 50;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+footer .footer-right-text p{
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .banner h1{
+        font-size: 2.8rem;
+        top: 5rem;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .hey-guys h2{
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    
+    .youtability h3{
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+    .youtability p{
+        margin-bottom: 3rem;
+        font-size: 2rem;
+    }
+    
+    .mobile-section-2{
+        padding: 3rem 0;
+        margin-bottom: 3rem;
+    }
+    .mobile-section-2 p,
+    .bottom-mobile p{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    footer{
+        min-height: 25rem;
+        padding: 6rem 0 2rem;
+    }
+    footer h2{
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+    footer p{
+        margin-bottom: 3rem;
+        line-height: 1.6;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .hey-guys .container{
+        max-width: 700px;
+    }
+    .hey-guys h2{
+        margin-top: -8rem;
+    }
+    .youtability .content{
+        max-width: 50rem;
+    }
+    .container{
+        max-width: 1024px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width: 1660px) {
+    html{
+        font-size: 80%;
+    }
+}
